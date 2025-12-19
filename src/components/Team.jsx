@@ -6,7 +6,7 @@ import {
 } from 'lucide-react';
 
 
-import image from '../assets/img/image.jpg';
+
 
 const Team = () => {
   const [activeMember, setActiveMember] = useState(0);
@@ -18,7 +18,7 @@ const Team = () => {
       experience: "25+ ans d'expérience",
       description: "Ingénieur Civil diplômé de l'École Polytechnique de Thiès. Expert en gestion de grands projets d'infrastructure avec plus de 50 projets majeurs réalisés au Sénégal.",
       specialties: ["Gestion de Projet", "Stratégie d'Entreprise", "Relations Clients"],
-      image: image,
+      image: "../assets/img/image.jpg",
       color: "from-seta-orange-500 to-orange-600"
     },
     {
@@ -27,7 +27,7 @@ const Team = () => {
       experience: "25+ ans d'expérience",
       description: "Ingénieure des Travaux Publics, spécialisée en contrôle qualité et gestion des équipes. Responsable de la supervision de tous les chantiers de l'entreprise.",
       specialties: ["Contrôle Qualité", "Gestion des Opérations", "Sécurité"],
-      image: image,
+      image: "../assets/img/image.jpg",
       color: "from-seta-green-500 to-green-600"
     }
   ];
